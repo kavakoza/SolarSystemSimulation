@@ -21,16 +21,15 @@ def main():
     venus = Planet(0.723 * Planet.AU, 0, 14, WHITE, 4.8685 * 10**24, "Venus", 0)
     venus.y_velocity = -35.02 * 1000
 
-    #jupiter far scale 90+
     jupiter = Planet(-5.203 * Planet.AU, 0, 25, BROWN, 1.8981 * 10 ** 27, "Jupiter", 0)
     jupiter.y_velocity = 13.06 * 1000
-    #saturn far scale 50
+
     saturn = Planet(9.537 * Planet.AU, 0, 25, LIGHT_BROWN, 5.6832 * 10 ** 26, "Saturn", 0)
     saturn.y_velocity = -9.67 * 1000
-    #neptune far scale 15
+
     neptune = Planet(30.068 * Planet.AU, 0, 20, DARK_BLUE, 1.204 * 10 ** 26, "Neptune", 0)
     neptune.y_velocity = -5.45 * 1000
-    # far scale 25
+
     uranus = Planet(19.191 * Planet.AU, 0, 17, GREEN, 8.681 * 10 ** 25, "Uranus", 0)
     uranus.y_velocity = -6.79 * 1000
 
